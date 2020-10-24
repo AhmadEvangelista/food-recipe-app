@@ -23,7 +23,6 @@ const controlSearch = async () => {
     // 4 Search for recipes
     await state.search.getResult();
     // 5 Render results on UI
-    console.log(state.search.result);
     clearLoader();
     searchView.renderResults(state.search.result);
   }
@@ -43,4 +42,5 @@ elements.searchResPages.addEventListener('click', (e) => {
 // Recipe Controller
 const r = new Recipe('09b4dbdf0c7244c462a4d2622d88958e');
 r.getRecipe();
+console.log(r);
 // 09b4dbdf0c7244c462a4d2622d88958e

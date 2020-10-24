@@ -50,6 +50,7 @@ const renderRecipe = (recipe) => {
                     </a>
                 </li>`;
   elements.searchResList.insertAdjacentHTML('beforeend', markup);
+  
 };
 // type: "prev" or "next"
 const createButton = (page, type) =>
