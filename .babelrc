@@ -1,0 +1,8 @@
+{
+    "presets": [["@babel/preset-env",{
+        "target":{
+            "browser": "last 5 version",
+             "ie": ">=8"
+        }
+      }]]
+}
